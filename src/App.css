@@ -1,0 +1,164 @@
+/* <------ Home Page ----------->*/
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.heading {
+  font-size: 48px;
+  font-family: Poppins;
+  font-weight: 400;
+  width: 500px;
+  height: 400px;
+  margin-left: 150px;
+  margin-top: 150px;
+}
+
+.illustration {
+  width: 450px;
+  height: 450px;
+  margin-right: 100px;
+}
+
+.vector1 {
+  border: 3px solid #66fefe;
+  width: 425px;
+  height: 0px;
+  position: absolute;
+  top: 368px;
+  left: 175px;
+  animation: slide-right 1s 1 both;
+}
+
+.vector2 {
+  border: 3px solid #fe66b8;
+  width: 130px;
+  height: 0px;
+  position: absolute;
+  top: 440px;
+  left: 265px;
+  animation: slide-right 1s 1 both;
+}
+
+.vector3 {
+  border: 3px solid #fef866;
+  width: 160px;
+  height: 0px;
+  position: absolute;
+  top: 295px;
+  left: 418px;
+  animation: slide-right 1s 1 both;
+}
+
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
+/* <------------ The End ------------> */
+
+/* <-------- About Component ---------> */
+.about-title {
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.profilePic {
+  height: 300px;
+}
+
+article {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+  padding: 20px;
+  background: #66fefe;
+  box-shadow: 11px 14px 22px -15px rgb(4 104 90 / 75%);
+}
+
+/* <---------- The End ----------> */
+
+/* <----------------- TECHNOLOGIESS SECTION -------------------> */
+
+.tech-container {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-family: Poppins;
+}
+
+.tech {
+  font-family: Poppins;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skills {
+  font-family: Poppins;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.bubbles {
+  background-color: bisque;
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 20px;
+}
+/* <----------------- THE END-------------------> */
+/* <---------- Footer Container-----------> */
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  color: white;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.copyright {
+  text-align: center;
+}
+/* <---------- The End-----------> */

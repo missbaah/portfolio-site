@@ -1,0 +1,23 @@
+.project-container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+img {
+  height: 200px;
+  width: 400px;
+}
+
+.links {
+  margin: 20px;
+}

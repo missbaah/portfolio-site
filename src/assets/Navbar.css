@@ -1,0 +1,30 @@
+.logo {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  /* margin-left: 40px; */
+}
+
+.resume-btn {
+  background-color: white;
+  padding: 5px;
+  border-radius: 50px;
+  width: 75px;
+}
