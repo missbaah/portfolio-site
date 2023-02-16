@@ -23,9 +23,9 @@ const Navbar = () => {
         <Link className="nav-link" to="/writing">
           04 Writing
         </Link>
-        <button onClick={handleClick} className="resume-btn">
+        {/* <button onClick={handleClick} className="resume-btn">
           Resume
-        </button>
+        </button> */}
       </nav>
     </section>
   );

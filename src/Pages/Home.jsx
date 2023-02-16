@@ -11,11 +11,14 @@ const Home = () => {
         <section className="container">
           <h1 className="heading">
             Hello, I am <span className="underline pink">Adwoa</span>,{" "}
-            <span className="underline blue">software developer</span> and
+            <span className="underline blue">software developer</span> and{" "}
             <span className="underline yellow">writer</span>
           </h1>
           <img className="illustration" src={illustration} alt="animation" />
         </section>
+      </Fade>
+      <Fade bottom>
+        <h3 className="sub-heading">About me</h3>
       </Fade>
       <About />
       <Fade bottom>

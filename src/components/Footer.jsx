@@ -1,5 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faTwitter,
+  faLinkedinIn,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 import "../App.css";
 
 const Footer = () => {
@@ -7,25 +12,24 @@ const Footer = () => {
     <main className="footer-container">
       <div className="contact-details">
         <span>
-          <FontAwesomeIcon icon={faArrowRight} />
-          Email
+          <a href="mailTo:baahbrako@gmail.com" target="_blank">
+            <FontAwesomeIcon icon={faEnvelope} />
+          </a>
         </span>
         <span>
-          <FontAwesomeIcon icon={faArrowRight} />
-          Github
+          <a></a>
+          <FontAwesomeIcon icon={faGithub} />
         </span>
         <span>
-          <FontAwesomeIcon icon={faArrowRight} />
-          LinkedIn
+          <FontAwesomeIcon icon={faLinkedinIn} />
         </span>
         <span>
-          <FontAwesomeIcon icon={faArrowRight} />
-          Twitter
+          <FontAwesomeIcon icon={faTwitter} />
         </span>
       </div>
 
       <div className="copyright">
-        © Copyright Adwoa Baah Addo-Brako 2023. All Rights Reserved
+        © Copyright Adwoa Baah Addo-Brako, 2023. All Rights Reserved
       </div>
     </main>
   );
