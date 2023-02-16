@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { logo } from "../images";
-import "../assets/Navbar.css"
+import "../assets/Navbar.css";
 
 const Navbar = () => {
   function handleClick() {
@@ -11,20 +10,22 @@ const Navbar = () => {
 
   return (
     <section>
-        <img className="logo" src={logo} alt="logo" />
       <nav className="nav-bar">
         <Link className="nav-link" to="/">
           01 Home
         </Link>
+        <Link className="nav-link" to="/about">
+          02 About
+        </Link>
         <Link className="nav-link" to="/projects">
-          02 Projects
+          03 Projects
         </Link>
         <Link className="nav-link" to="/writing">
-          03 Writing
+          04 Writing
         </Link>
         <button onClick={handleClick} className="resume-btn">
-        Resume
-      </button>
+          Resume
+        </button>
       </nav>
     </section>
   );

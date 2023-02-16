@@ -1,22 +1,35 @@
-import { About, Footer } from "../components";
+import { About } from "../components";
+import { Projects, Writing } from "../Pages";
 import { illustration } from "../images";
+import { Fade } from "react-reveal";
 import "../App.css";
 
 const Home = () => {
   return (
     <main>
-      <section className="container   ">
-        <h1 className="heading">
-          Hello, I am Adwoa, software developer and writer
-          <div className="vector1"></div>
-          <div className="vector2"></div>
-          <div className="vector3"></div>
-        </h1>
-        <img className="illustration" src={illustration} alt="animation" />
-      </section>
-
+      <Fade bottom>
+        <section className="container">
+          <h1 className="heading">
+            Hello, I am <span className="underline pink">Adwoa</span>,{" "}
+            <span className="underline blue">software developer</span> and
+            <span className="underline yellow">writer</span>
+          </h1>
+          <img className="illustration" src={illustration} alt="animation" />
+        </section>
+      </Fade>
       <About />
-      <Footer />
+      <Fade bottom>
+        <h3 className="sub-heading">Here are some projects I've worked on</h3>
+      </Fade>
+      <Fade right>
+        <Projects />
+      </Fade>
+      <Fade bottom>
+        <h3 className="sub-heading">Check out my writing</h3>
+      </Fade>
+      <Fade left>
+        <Writing />
+      </Fade>
     </main>
   );
 };
