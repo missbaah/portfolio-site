@@ -6,7 +6,7 @@ const Project = ({ name, livesite, github, src }) => {
   return (
     <section className="project">
       <div>{name}</div>
-      <img src={src} alt="site img" />
+      <img className="project-pic" src={src} alt="site img" />
       <div className="links">
         <a href={livesite} target="_blank" rel="noreferrer">
           Live Site

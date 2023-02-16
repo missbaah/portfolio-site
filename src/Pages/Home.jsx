@@ -4,8 +4,8 @@ import "../App.css";
 
 const Home = () => {
   return (
-    <>
-      <section className="container">
+    <main>
+      <section className="container   ">
         <h1 className="heading">
           Hello, I am Adwoa, software developer and writer
           <div className="vector1"></div>
@@ -17,7 +17,7 @@ const Home = () => {
 
       <About />
       <Footer />
-    </>
+    </main>
   );
 };
 
