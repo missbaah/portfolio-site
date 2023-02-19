@@ -10,7 +10,7 @@ const About = () => {
         <section className="about-container">
           <div>
             <img className="profilePic" src={profilepic} alt="Adwoa" />
-            <span>
+            <span className="btn">
               <button>Contact Me</button>
               <button>Down Resume</button>
             </span>
