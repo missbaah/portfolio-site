@@ -9,10 +9,10 @@
 
 .heading {
   flex-grow: 1;
-  font-size: 48px;
+  font-size: 52px;
   font-weight: 400;
   padding: 50px;
-  margin: 50px;
+  margin: 50px 50px 50px 70px;
 }
 
 .profile-pic {
@@ -40,7 +40,7 @@
 
 .scroll-down {
   position: relative;
-  left: 100px;
+  left: 125px;
   top: -80px;
   width: fit-content;
 }
