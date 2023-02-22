@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap");
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Nunito Sans, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -15,10 +17,14 @@
 }
 
 p {
+  font-size: 18px;
   margin: 0;
 }
 
-h1 {
+h1,
+h2,
+h3 {
+  font-weight: 700;
   margin: 0;
 }
 
@@ -41,10 +47,10 @@ body {
 }
 
 button {
-  border-radius: 8px;
+  border-radius: 50px;
   border: 1px solid #646cff;
   padding: 0.6em 1.2em;
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;

@@ -25,9 +25,9 @@ const Home = () => {
           down
         </div>
       </Fade>
-      <Fade bottom>
+      {/* <Fade bottom>
         <h3 className="sub-heading">About me</h3>
-      </Fade>
+      </Fade> */}
       <About />
       <Fade bottom>
         <h3 className="sub-heading">Here are some projects I've worked on</h3>

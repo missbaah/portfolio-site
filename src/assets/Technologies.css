@@ -1,0 +1,7 @@
+.tech-stack {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+}
