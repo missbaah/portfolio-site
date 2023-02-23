@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-import { Home, Projects, Writing } from "./Pages";
-import { Navbar, Footer } from "./components";
+import { Home, Projects } from "./Pages";
+import { Navbar, Footer, Writing } from "./components";
 import { About } from "./components";
 import "./App.css";
 

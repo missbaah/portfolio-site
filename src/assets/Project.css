@@ -3,8 +3,15 @@
   margin-top: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 70px;
   margin: 100px 100px;
+}
+
+.project:hover {
+  opacity: 50%;
+}
+.project:hover .read-more {
+  display: block;
 }
 
 .project {
@@ -12,6 +19,9 @@
   flex-direction: column;
   align-items: center;
   gap: 50px;
+  padding: 20px;
+  border: 1px solid blue;
+  border-radius: 50px;
 }
 
 .project-pic {
@@ -19,6 +29,18 @@
   width: 400px;
 }
 
+.read-more {
+  display: none;
+  position: absolute;
+  top: 140px;
+}
+
 .links {
   margin: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  color: black;
 }

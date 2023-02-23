@@ -7,16 +7,15 @@ const Project = ({ name, livesite, github, src }) => {
     <section className="project">
       <div>{name}</div>
       <img className="project-pic" src={src} alt="site img" />
-      <div className="links">
+      <div className="read-more">Read more...</div>
+      {/* <div className="links">
         <a href={livesite} target="_blank" rel="noreferrer">
-          Live Site
-          <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+          Live Site <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
         </a>
         <a href={github} target="_blank" rel="noreferrer">
-          GitHub
-          <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+          GitHub <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };

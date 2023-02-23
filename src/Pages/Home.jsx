@@ -1,9 +1,9 @@
-import { About } from "../components";
-import { Projects, Writing } from "../Pages";
+import { About, Writing } from "../components";
+import { Projects } from "../Pages";
 import { illustration, profilepic } from "../images";
 import { Fade } from "react-reveal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faA, faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import "../App.css";
 
 const Home = () => {
