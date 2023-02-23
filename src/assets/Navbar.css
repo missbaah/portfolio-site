@@ -17,7 +17,6 @@
 
 .nav-link:hover {
   color: black;
-
   padding-bottom: -55px;
   border-bottom: 4px solid yellow;
 }

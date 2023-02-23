@@ -1,0 +1,31 @@
+.details-container {
+  min-height: 100vh;
+}
+
+.info-box {
+  display: flex;
+  gap: 100px;
+}
+
+.item1 {
+  flex: 1;
+}
+.item2 {
+  flex: 1;
+}
+.item3 {
+  flex: 1;
+}
+
+.summary {
+  display: flex;
+  height: 300px;
+}
+
+.summary article {
+  flex: 2;
+}
+
+.summary aside {
+  flex: 1;
+}
